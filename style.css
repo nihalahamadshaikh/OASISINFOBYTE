@@ -1,0 +1,131 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+/*Tablet Lanescape*/
+@media screen and(max-width: 1060px) {
+	#primary {
+		width: 67%;
+	}
+	#secondary {
+		width: 30%;
+		margin-left: 3%;
+	}
+}
+
+/*Tabled portrait */
+@media screen and(max-width: 768px) {
+	#primary {
+		width: 100%;
+	}
+	#secondary {
+		width: 100%;
+		margin-left: 3%;
+		margin: 0;
+		border: none;
+	}
+}
+/*Styling header part*/
+header {
+	width: 100%;
+	overflow: hidden;
+	height: 140px;
+	background-color: white;
+	color: black;
+	font-family: 'vani';
+	font-size: 140%;
+	text-align: center;
+}
+/*Top name "NELSON MANDELA" */
+.name {
+	padding-top: 15px;
+}
+
+.description {
+	font-size: 80%;
+	font-family: 'vani';
+}
+/*main part of the page*/
+.main {
+	height: 700px;
+	width: 100%;
+}
+/*div for image*/
+div.column1 {
+	float: left;
+	width: 70%;
+	height: 700px;
+}
+/*div for quote*/
+div .quote {
+	padding-top: 70px;
+	height: 200px;
+	margin: 0;
+	text-align: center;
+	font-size: 20px;
+	font-family: 'vani', serif;
+}
+/*writer name*/
+.writer {
+	text-align: justify;
+	padding-top: 30px;
+	padding-left: 500px;
+}
+/*Column for quick facts*/
+div.column2 {
+	float: left;
+	width: 30%;
+	height: 700px;
+}
+/*Styling Nelson's image*/
+.image {
+	height: 500px;
+	width: 100%;
+	padding-left: 20px;
+}
+/*Quick info div*/
+.quick_info {
+	height: 700px;
+	width: 300px;
+	margin: auto;
+	border: solid 2px gray;
+	text-align: center;
+}
+.quick_fact {
+	padding-top: 40px;
+	font-weight: bold;
+	font-size: 60x;
+}
+/*questions in wuick info*/
+.heading {
+	color: gray;
+	padding-top: 15px;
+}
+.Answer {
+	font-family: 'vani';
+	text-align: center;
+}
+/*class for icons (twitter, facebook, youtube)*/
+.fa {
+	padding: 15px;
+	margin-top: 50px;
+	margin-right: 15px;
+	font-size: 30px;
+	width: 15px;
+	text-align: center;
+	text-decoration: none;
+}
+
+/* Add a hover effect */
+.fa:hover {
+	opacity: 0.7;
+}
+
+/*Short Information*/
+.about {
+	text-align: center;
+	padding: 20px 20px 20px 20px;
+	font-family: 'vani';
+	margin: 40px;
+}
